@@ -1,0 +1,40 @@
+{
+    "name": "doni",
+    "version": "0.0.1",
+    "keywords": [
+        "react",
+        "ui",
+        "library",
+        "ui library"
+    ],
+    "description": "A high performance UI library powerd by Mobx.",
+    "scripts": {
+        "build": "yarn build:esm && yarn build:cjs",
+        "build:esm": "tsc",
+        "build:cjs": "tsc --module commonjs --outDir lib/cjs",
+        "release": "npm publish --tag latest"
+     },
+    "main": "./lib/cjs/index.js",
+    "module": "./lib/esm/index.js",
+    "types": "./lib/esm/index.d.ts",
+    "peerDependencies": {
+        "react": "^16.8.0 || ^17.0.0",
+        "react-dom": "^16.8.0 || ^17.0.0"
+     },
+     "files": [
+        "/lib",
+        "README.md",
+        "package.json",
+        ""
+     ],
+     "author": "NE-SmallTown",
+     "license": "MIT",
+     "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NE-SmallTown/doni.git"
+     },
+     "bugs": {
+        "url": "https://github.com/NE-SmallTown/doni/issues"
+     },
+     "homepage": "https://github.com/NE-SmallTown/doni#readme"
+}
