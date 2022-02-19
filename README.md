@@ -6,6 +6,10 @@ A high performance UI library using magic Mobx and Antd!
 
 See https://zhuanlan.zhihu.com/p/469224590
 
+# Install
+
+`npm i doni`
+
 # Example
 
 ```jsx
