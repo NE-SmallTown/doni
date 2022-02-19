@@ -1,0 +1,51 @@
+.doni-filter-dropdown {
+
+    .icon {
+        margin-left: 5px;
+        cursor: pointer;
+        padding: 4px;
+        transition: all 0.3s ease 0s;
+        border-radius: 2px;
+        box-sizing: border-box;
+
+        &:hover {
+            color: rgba(0, 0, 0, 0.45);
+            background: rgba(0, 0, 0, 0.04);
+        }
+    }
+}
+
+.doni-filter-dropdown-overlay {
+
+    .filter-item {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        display: flex;
+        align-items: center;
+
+        &:first-child {
+            margin-top: 10px;
+        }
+
+        &:last-child {
+            margin-bottom: 10px;
+        }
+
+        &:hover {
+            background-color: rgb(245, 245, 245);
+        }
+
+        .filter-item-text {
+            margin-left: 8px;
+        }
+    }
+
+    .actions {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+        background-color: #fff;
+        border-top: 1px solid #f0f0f0
+    }
+}
+

@@ -1,0 +1,16 @@
+.doni-table-wrap {
+    position: relative;
+
+    .doni-table {
+        width: 100%;
+        background-color: #fff;
+        table-layout: fixed;
+    }
+
+    .doni-table-loading-spin {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

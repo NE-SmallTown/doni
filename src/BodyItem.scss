@@ -1,0 +1,13 @@
+.doni-table-tr {
+    background-color: #fff;
+
+    &:hover {
+        background-color: #fbfbfb;
+    }
+}
+//1. 初次渲染，什么数据都没有
+//2. 请求城市列表 -> 根据测试渲染城市列表 tabs
+//3. 选中第一个城市
+//4. 请求第一个城市对应的文章列表来渲染表格
+//5.
+//6.

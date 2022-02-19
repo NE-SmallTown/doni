@@ -1,0 +1,27 @@
+.doni-table-th {
+    box-sizing: border-box;
+    padding: 16px;
+    text-align: left;
+    position: relative;
+    background-color: #fafafa;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+
+    &.doni-table-th-top-fixed {
+        position: sticky;
+        top: -1px;
+        z-index: 1;
+    }
+
+    :not(:last-child) &::after {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 1px;
+        height: 60%;
+        background-color: #f0f0f0;
+        transform: translateY(-50%);
+        transition: background-color .3s;
+        content: '';
+    }
+}
