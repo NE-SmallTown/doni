@@ -1,6 +1,6 @@
 {
   "name": "doni",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "react",
     "ui",
@@ -10,7 +10,7 @@
   "description": "A high performance UI library powered by Mobx.",
   "scripts": {
     "build": "rm -rf lib && rollup --config",
-    "release": "npm publish --tag latest"
+    "release": "npm publish lib --tag latest"
   },
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
