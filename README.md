@@ -2,6 +2,10 @@
 
 A high performance UI library using magic Mobx and Antd!
 
+# What magic it has?
+
+See https://zhuanlan.zhihu.com/p/469224590
+
 # Example
 
 ```jsx
